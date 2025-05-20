@@ -7,6 +7,8 @@ Blockchain is a decentralized data storage system where each transaction is reco
 
 Validation servers for blockchain networks, particularly those supporting high-performance networks like Solana, require careful consideration of hardware specifications to ensure optimal performance. Among the most critical components are the central processor (CPU) and random-access memory (RAM), which directly impact transaction processing speed, registry synchronization efficiency, and overall system reliability.
 
+![Solana Blockchain](./Solana.jpg)
+
 ### Choosing a Processor 
 The choice for blockchain validation servers is largely determined by the need to support multithreading and high clock speeds. Multithreading allows the processor to execute multiple threads simultaneously, thereby enhancing its ability to handle parallel operations—this is crucial for blockchains processing thousands of transactions per second. For example, AMD EPYC processors have gained widespread recognition due to their multi-core architecture. Configurations with a minimum of 24 cores or high-frequency CPUs with 16+ cores are often considered ideal for validators in blockchain networks like Solana. The AMD EPYC 9254 processor features 24 cores at a clock speed of 2.9 GHz and effectively handles the computational tasks associated with blockchain validation. Such configurations not only improve transaction throughput but also reduce latency during consensus participation and data distribution.
 
@@ -56,6 +58,8 @@ Despite these advancements, there are notable trade-offs between traditional vir
 2. **RPC Servers (Remote Procedure Call nodes)** — Provide API for interacting with the network, used by dApp developers, exchanges, and wallets.
 3. **Indexers** — Collect data about transactions, accounts, events, and store them in a structured format for easy search and analysis.
 4. **Test Nodes (Test Validators / DevNet)** — Local or remote nodes used by developers to test smart contracts, dApps, and new features before launching on the mainnet.
+
+![Solana Blockchain Scheme](./Solana_scheme.png)
 
 ### Resources Required for Solana Components
 
@@ -150,6 +154,8 @@ HOSTKEY offers several types of servers suitable for various tasks within the So
 | **HOSTKEY**   | RPC Node (ryzen-64)                 | from €119 (~$130)| from $1,560      | Ideal for small business              |
 | **Cherry Servers** | RPC Node (i7 BM)             | from $199        | from $2,388      | More scalability options              |
 | **HOSTKEY**   | Test Validator (v2, v3, ryzen)           | from €22 (~$25)  | from $660        | Most economical for development       |
+
+![Hostkey Solana Blockchain Servers](./Hostkey_solana.png)
 
 ## Conclusion
 
